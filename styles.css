@@ -1,0 +1,32 @@
+body {
+    background-color:blue;
+}
+
+h1 {
+    color:green;
+    padding:10px;
+    border-style:dashed;
+    border-color:white;
+    border-width:4px;
+    height:25%;
+    overflow:scroll;
+}
+
+li {
+    font-size:3rem;
+    text-align:right;
+    line-height:6rem;
+}
+
+ul {
+    list-style-type:square;
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+}
+
+p{
+    text-transform:uppercase;
+    margin:25px;
+    box-shadow: rgba(255, 255, 255, 1) 0px 1px 4px;
+}
