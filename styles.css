@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 body {
     background-color:blue;
 }
@@ -10,6 +11,9 @@ h1 {
     border-width:4px;
     height:25%;
     overflow:scroll;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 li {
@@ -27,6 +31,12 @@ ul {
 
 p{
     text-transform:uppercase;
-    margin:25px;
+    margin:4rem;
     box-shadow: rgba(255, 255, 255, 1) 0px 1px 4px;
+    transition:0.75s cubic-bezier(.17,.67,.83,.67) all;
+}
+
+p:hover {
+    font-size:4rem;
+    cursor:pointer;
 }
